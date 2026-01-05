@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 # RAG Mastery: Complete Parameter Experiments
 
 This project provides a comprehensive exploration of RAG (Retrieval-Augmented Generation) systems, from foundational embedding choices to advanced parameter optimization using the Gemini research paper as a knowledge base.
+=======
+# Parameters Experiments for RAG Systems
+
+This repository contains comprehensive experiments testing various parameters in Retrieval-Augmented Generation (RAG) systems using OpenAI's API and the Gemini research paper as the knowledge base.
+>>>>>>> 280b73cdbd24f24be0828750a4a3a12cd7e8dc70
 
 ## 📁 Project Structure
 
 ```
 parameters-experiments/
 ├── notebooks/
+<<<<<<< HEAD
 │   ├── 00_embedding_models_comparison.ipynb    # Compare embedding models (NEW)
 │   ├── 01_similarity_methods_comparison.ipynb  # Compare similarity search methods (NEW)
 │   ├── 02_pdf_embeddings.ipynb                # PDF processing & embeddings setup (RENAMED)
@@ -18,6 +25,15 @@ parameters-experiments/
 │   ├── rag_embeddings.pkl                    # Pre-computed embeddings
 │   ├── embedding_models_comparison.pkl       # Embedding comparison results (NEW)
 │   └── similarity_methods_comparison.pkl     # Similarity methods results (NEW)
+=======
+│   ├── 00_pdf_embeddings.ipynb      # PDF processing & embeddings setup
+│   ├── 01_temperature.ipynb         # Temperature parameter testing
+│   ├── 02_top_p_top_k.ipynb        # Top-p and retrieval-k experiments
+│   └── 03_max_tokens.ipynb         # Max tokens parameter testing
+├── data/
+│   ├── Gemini_FamilyOfMultimodelModels.pdf
+│   └── rag_embeddings.pkl          # Pre-computed embeddings
+>>>>>>> 280b73cdbd24f24be0828750a4a3a12cd7e8dc70
 ├── requirements.txt
 └── README.md
 ```
@@ -42,6 +58,7 @@ parameters-experiments/
    ```
 
 4. **Run notebooks in order:**
+<<<<<<< HEAD
    - **Phase 1 (Foundation)**: `00_embedding_models_comparison.ipynb`, `01_similarity_methods_comparison.ipynb`
    - **Phase 2 (Setup)**: `02_pdf_embeddings.ipynb` to generate embeddings
    - **Phase 3 (Parameters)**: `03_temperature.ipynb`, `04_top_p_top_k.ipynb`, `05_max_tokens.ipynb`
@@ -82,6 +99,10 @@ parameters-experiments/
 - Tests response length limits from 50 to 800 tokens
 - Analyzes information density vs verbosity trade-offs
 - Determines optimal token limits for different use cases
+=======
+   - Start with `00_pdf_embeddings.ipynb` to generate embeddings
+   - Then run parameter experiments: `01_temperature.ipynb`, `02_top_p_top_k.ipynb`, `03_max_tokens.ipynb`
+>>>>>>> 280b73cdbd24f24be0828750a4a3a12cd7e8dc70
 
 ## 📊 Current Experiments
 
@@ -102,6 +123,7 @@ parameters-experiments/
 - [ ] **07_cost_analysis.ipynb** - Token usage and cost optimization across parameters
 - [ ] **08_evaluation_methods.ipynb** - Comparing LLM judge vs human evaluation vs automated metrics
 
+<<<<<<< HEAD
 ### 📋 Planned Experiments
 
 #### Retrieval & Chunking
@@ -133,6 +155,8 @@ parameters-experiments/
 - [ ] **26_document_types.ipynb** - Testing with different document formats (academic papers, manuals, web content)
 - [ ] **27_multilingual.ipynb** - Cross-language retrieval and generation
 
+=======
+>>>>>>> 280b73cdbd24f24be0828750a4a3a12cd7e8dc70
 ## 🎯 Key Research Questions
 
 1. **Parameter Optimization**: What are the optimal parameter combinations for different use cases?
@@ -164,9 +188,12 @@ parameters-experiments/
 4. Include proper documentation and results analysis
 5. Submit a pull request
 
+<<<<<<< HEAD
 ## 📄 License
 
 This project is open source and available under the MIT License.
+=======
+>>>>>>> 280b73cdbd24f24be0828750a4a3a12cd7e8dc70
 
 ## 🤝 Acknowledgments
 
