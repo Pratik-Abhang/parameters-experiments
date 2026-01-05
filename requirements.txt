@@ -1,1 +1,15 @@
+# Core dependencies
 openai
+python-dotenv
+
+# Data processing
+pandas
+numpy
+scikit-learn
+
+# PDF processing
+PyMuPDF
+
+# Jupyter notebook support
+jupyter
+ipykernel
