@@ -60,37 +60,6 @@ parameters-experiments/
 - [ ] **07_cost_analysis.ipynb** - Token usage and cost optimization across parameters
 - [ ] **08_evaluation_methods.ipynb** - Comparing LLM judge vs human evaluation vs automated metrics
 
-### 📋 Planned Experiments
-
-#### Retrieval & Chunking
-- [ ] **09_embedding_models.ipynb** - Compare different embedding models (text-embedding-3-small vs large vs ada-002)
-- [ ] **10_similarity_thresholds.ipynb** - Test retrieval similarity score thresholds
-- [ ] **11_chunk_strategies.ipynb** - Sentence-based vs paragraph-based vs semantic chunking
-- [ ] **12_context_window.ipynb** - Optimal context length for different query types
-
-#### Model Parameters
-- [ ] **13_model_comparison.ipynb** - GPT-4o-mini vs GPT-4o vs GPT-3.5-turbo
-- [ ] **14_frequency_penalty.ipynb** - Test frequency and presence penalties
-- [ ] **15_system_prompts.ipynb** - Different system prompt strategies
-- [ ] **16_few_shot_examples.ipynb** - Impact of few-shot examples in prompts
-
-#### Advanced Techniques
-- [ ] **17_query_expansion.ipynb** - Query rewriting and expansion techniques
-- [ ] **18_reranking.ipynb** - Post-retrieval reranking strategies
-- [ ] **19_hybrid_search.ipynb** - Combining semantic + keyword search
-- [ ] **20_multi_query.ipynb** - Multiple query generation and aggregation
-
-#### Evaluation & Optimization
-- [ ] **21_response_quality.ipynb** - Comprehensive quality metrics (BLEU, ROUGE, BERTScore)
-- [ ] **22_latency_optimization.ipynb** - Speed vs quality trade-offs
-- [ ] **23_cost_efficiency.ipynb** - Cost per query optimization strategies
-- [ ] **24_error_analysis.ipynb** - Common failure modes and mitigation
-
-#### Domain-Specific
-- [ ] **25_query_types.ipynb** - Performance across different question types (factual, analytical, comparative)
-- [ ] **26_document_types.ipynb** - Testing with different document formats (academic papers, manuals, web content)
-- [ ] **27_multilingual.ipynb** - Cross-language retrieval and generation
-
 ## 🎯 Key Research Questions
 
 1. **Parameter Optimization**: What are the optimal parameter combinations for different use cases?
@@ -122,9 +91,6 @@ parameters-experiments/
 4. Include proper documentation and results analysis
 5. Submit a pull request
 
-## 📄 License
-
-This project is open source and available under the MIT License.
 
 ## 🤝 Acknowledgments
 
