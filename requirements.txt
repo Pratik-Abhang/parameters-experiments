@@ -6,10 +6,19 @@ python-dotenv
 pandas
 numpy
 scikit-learn
+scipy
 
 # PDF processing
 PyMuPDF
 
+# Visualization
+matplotlib
+seaborn
+
 # Jupyter notebook support
 jupyter
 ipykernel
+
+# Additional utilities
+pickle5
+tqdm
